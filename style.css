@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.nav-list
+{
+  display: flex;
+}
+
+.nav-item
+{
+  text-transform: capitalize;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 25px;
+  outline: none;
+  /* border: none; */
+}
+
+.nav .nav-link
+{
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.nav .nav-link:hover
+{
+  color: #fff;
+  background-color: #2575E6;
+  font-weight: 600;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.buttons .nav-lnk
+{
+  font-family: 'Nunito', sans-serif;
+  color: #000;
+  margin-left: 10px;
+  padding: 10px 25px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+}
+
+.buttons .nav-lnk:hover
+{
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  margin-left: 10px;
+  background-color: #2575E6;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+main .container{
+    border-radius: 2%;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    margin: 50px auto;  
+    width: 1140px;
+    background-image:linear-gradient(-70deg, rgba(190,158,151, 0) 30%, rgba(88,102,124, 0.18) 70%), url(".//img/0.2.png");
+    background-image: linear-gradient(269deg, rgba(255, 255, 255, 0) 0%, rgba(59, 115, 150, 0.71) 100%),url(".//img/0.2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    width: 500px;
+    padding: 150px 100px;
+    color: white;
+}
+
+.info-title{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+
+.info-text{
+    padding: 20px 0;
+    padding-top: 100px;
+    width: 450px;
+    font-weight: 500;
+}
+
+
+.form{
+    width: 80%;
+    display: flex;
+    
+}
+.form .input{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+
+.form .button{
+    width: 30%;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius : 0 5px 5px 0;
+    border:none;
+    background-color: rgb(97, 120, 224);
+    outline: none;
+    color:white;
+}
+
+.courses .container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.courses-list
+{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 40px; */
+}
+
+.courses-item
+{
+  display: flex;
+  align-items: center;
+}
+
+.courses-icon
+{
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  margin-right: 30px;
+}
+
+.courses .courses-crs
+{
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}
+
+.courses .courses-txt
+{
+  font-family: 'Nunito', sans-serif;
+  color: rgba(0,0,0,0.5);
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.container{
+    width: 1140px;
+    margin: 50px auto;
+}
+
+.popular .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all .our{
+    color: rgb(46, 44, 44);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.all .our div{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(72, 72, 226);
+}
+
+.all-link{
+    border: 1px solid blue;
+    padding: 18px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.all-link:hover{
+    transition: 1s;
+    background-color: rgb(102, 102, 245);
+    color: white;
+}
+
+.popular .popular-list{
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.popular-item {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  background-image: url(https://picsum.photos/300);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px 450px;
+  margin: 35px;
+  margin-left: 45px;
+  box-shadow: 0px 10px 25px 1px #e7eaec;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.popular-item .app{
+  position: absolute;
+  bottom: 0;
+  /* background-color:red; */
+  width: 100%;
+  padding-bottom: 30px;
+  line-height: 2;
+  text-align: center;
+  background: white;
+}
+
+.app-hr{
+  width: 250px;
+  margin-left: 30px;
+}
+
+.app span{
+display: flex;
+justify-content: left;
+align-items: center;
+margin-left: 35px;
+}
+
+.app-text{
+  padding-left: 5px;
+  padding: 5px 10px;
+  color:darkgray
+}
+
+.app-title{
+  margin-top: 30px;
+  color: darkgray
+}
+
+.app-list{
+  margin-top: 2px;
+  color: darkgray;
+}
+
+.app .app-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.app{
+  position: relative;
+}
+
+.popula-item-image{
+  position: absolute;
+  right: 20px;
+  bottom: 170px;
+  border: none;
+  border-radius: 10px;
+
+}
